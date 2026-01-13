@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto-Cervejando</title>
+
+    <link rel="stylesheet" href="css/index.css">
+    <script defer src="js/index.js"></script>
+</head>
+
+<body>
+
+    <!-- ================= CABECERA ================= -->
+   <header>
+        <img class="logo" src="media/Logo_cerveijando-removebg-preview.png" alt="Cervejando logo">
+
+        <button class="menu-hamburguesa" aria-label="Abrir menú">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+
+        <nav class="nav-menu">
+            <ul>
+                <li><a class="link" href="#">Inicio</a></li>
+                <li><a class="link" href="escuelas.html">Escuelas</a></li>
+                <li><a class="link" href="estilos.html">Estilos</a></li>
+                <li><a class="link" href="curiosidades.html">Curiosidades</a></li>
+                <li><a class="link" href="quienessomos.html">Quienes Somos</a></li>
+                <li><a class="link" href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <!-- ================= BANNER ================= -->
+        <section class="banner">
+            <div class="banner__background">
+                <div class="banner__block container flex-column">
+                    <h1 class="text--xl">Descubre el mundo de la cerveza artesanal</h1>
+                    <h4 class="text--sm">
+                        Explora sabores, estilos, historias y curiosidades para mejorar tu experiencia cervecera.
+                    </h4>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= ESCUELAS ================= -->
+        <section class="school section">
+            <div class="school__block container flex-row">
+                <div class="school__img">
+                    <img src="media/Escolas.png" alt="image home">
+                </div>
+                <div class="school__content flex-column">
+                    <h2 class="text--lg">Escuelas del Sabor</h2>
+                    <h4 class="text--sm">
+                        Cuatro tradiciones, un mismo espíritu: la pasión por la buena cerveza.
+                    </h4>
+                    <p class="body">
+                        Descubre cómo cuatro escuelas distintas se unen en la búsqueda del equilibrio perfecto
+                        entre tradición, innovación y sabor auténtico.
+                    </p>
+                    <a class="btn" href="escuelas.html" title="Descubrir">
+                        Descubrir <i class="ri-arrow-right-up-line"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= ESTILOS ================= -->
+        <section class="school section">
+            <div class="school__block container flex-row">
+                <div class="school__content flex-column">
+                    <h2 class="text--lg">De Lager a IPA: ¡Encuentra tu estilo!</h2>
+                    <h4 class="text--sm">¿Más ligera? ¿Más amarga? ¿Con más cuerpo?</h4>
+                    <p class="body">
+                        Aquí descubrirás lo único de cada estilo y aprenderás a elegir tu cerveza perfecta.
+                    </p>
+                    <a class="btn" href="estilos.html" title="Descubrir">
+                        Descubrir <i class="ri-arrow-right-up-line"></i>
+                    </a>
+                </div>
+                <div class="school__img">
+                    <img src="media/estilos de cerveja.webp" alt="image home">
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= CURIOSIDADES ================= -->
+        <section class="container section-limpa">
+            <div class="curiosidades_grid_limpo">
+                <div class="curiosidad_item">
+                    <img src="media/los monges.png" alt="Los Monjes Trapenses: Fe, Silencio y Cerveza">
+                    <h2 class="text--md">Los Monjes Trapenses: Fe, Silencio y Cerveza</h2>
+                </div>
+
+                <div class="curiosidad_item">
+                    <img src="media/historia ipa.png" alt="La IPA y los Largos Viajes hasta la India">
+                    <h2 class="text--md">La IPA y los Largos Viajes hasta la India</h2>
+                </div>
+            </div>
+
+            <div class="btn-curiosidaes">
+                <a class="btn" href="curiosidades.html" title="Descubrir">
+                    Descubrir <i class="ri-arrow-right-up-line"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- ================= CONTACTO ================= -->
+        <section class="contacto section">
+            <div class="contacto__block container flex-row">
+                <div class="contacto__map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12319.934425798981!2d-0.33862468485149516!3d39.4696990602842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6048661a8fd345%3A0x4b516154a7cb7c69!2sEl%20Cabanyal%2C%20Povoados%20Mar%C3%ADtimos%2C%20Val%C3%AAncia!5e0!3m2!1spt-BR!2ses!4v1768213056736!5m2!1spt-BR!2ses" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <div class="contacto__form flex-column">
+                    <h2 class="text--lg">Contacta con nosotros</h2>
+                    <p class="body">
+                        ¿Tienes alguna duda, sugerencia o simplemente quieres decir hola?
+                    </p>
+
+                    <form action="#" method="GET">
+                        <div class="flew-row">
+                            <label for="name">Name</label>
+                            <input id="name" name="name" type="text" placeholder="Name">
+
+                            <label for="surname">Surname</label>
+                            <input id="surname" name="surname" type="text" placeholder="Surname">
+                        </div>
+
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" placeholder="Email">
+
+                        <label for="message">Message</label>
+                        <input id="message" name="message" type="message" placeholder="Message">
+
+                        <div class="flew-row">
+                            <label for="privacy">Privacy</label>
+                            <input type="checkbox" id="privacy" name="privacy">
+                            <span>Acepto las políticas de privacidad</span>
+                        </div>
+
+                        <input type="submit" value="Enviar">
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= PIE DE PÁGINA ================= -->
+        <footer>
+            <img class="logo" src="media/Logo_cerveijando-removebg-preview.png" alt="Cervejando logo">
+
+            <nav>
+                <ul>
+                    <li><a class="link" href="#">Aviso legal</a></li>
+                    <li><a class="link" href="#">Política de privacidad</a></li>
+                    <li><a class="link" href="#">Política de cookies</a></li>
+                </ul>
+            </nav>
+        </footer>
+
+    </main>
+
+</body>
+</html>
